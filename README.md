@@ -1,6 +1,6 @@
 # Real-Time Order Processing System
 
-This is a real-time order processing system designed to manage order creation and subsequent processing using modern technologies such as Kafka, PostgreSQL, and microservices. The system receives orders, stores them in the database, publishes events to a messaging system (Kafka), and then Kafka consumers process these events.
+This is a real-time order processing system designed to manage order creation and subsequent processing using modern technologies such as Kafka, PostgreSQL, and Golang. The system receives orders, stores them in the database, publishes events to a messaging system (Kafka), and then Kafka consumers process these events.
 
 ## Features
 
