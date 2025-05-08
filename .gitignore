@@ -1,0 +1,39 @@
+# Archivos binarios y ejecutables
+/bin/
+/build/
+/dist/
+*.exe
+*.out
+*.o
+*.a
+*.so
+
+# Dependencias externas (en caso de usar `vendor/` manualmente)
+vendor/
+
+# Caché y archivos de compilación
+*.log
+*.cache
+*.test
+*.tmp
+
+# Configuración del entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos de IDEs y editores de texto
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencias de módulos (opcional, si usas Go modules no es necesario ignorar)
+go.sum
+
+# Archivos de cobertura de tests
+coverage.out
+
+# Docker y contenedores
+docker-compose.override.yml
+.Dockerfile.swp
